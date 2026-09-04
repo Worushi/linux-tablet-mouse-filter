@@ -38,7 +38,7 @@ Perfect for digital painting in **Krita**, **Blender**, **MyPaint**, etc.
 
 2. **Clone the repository:**
    ```bash
-   git clone https://github.com/Worushi/PenPriority-Linux.git
+   git clone https://github.com/Worushi/linux-tablet-mouse-filter.git
    cd PenPriority-Linux
    ```
 
@@ -115,7 +115,7 @@ python3 tablet_priority.py
 
 2. **Клонируйте репозиторий:**
    ```bash
-   git clone https://github.com/Worushi/PenPriority-Linux.git
+   git clone https://github.com/Worushi/linux-tablet-mouse-filter.git
    cd PenPriority-Linux
    ```
 
