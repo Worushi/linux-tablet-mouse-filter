@@ -39,7 +39,7 @@ Perfect for digital painting in **Krita**, **Blender**, **MyPaint**, etc.
 2. **Clone the repository:**
    ```bash
    git clone https://github.com/Worushi/linux-tablet-mouse-filter.git
-   cd PenPriority-Linux
+   cd linux-tablet-mouse-filter
    ```
 
 3. **Find your device paths:**
@@ -68,6 +68,18 @@ sudo python3 tablet_priority.py
 sudo usermod -aG input $USER
 # Log out and log back in for changes to take effect!
 python3 tablet_priority.py
+```
+
+**Вариант 3: Create script and load in systemctl**
+```bash
+sudo nano /usr/local/bin/tablet_priority.py
+
+# Paste demon in terminal
+```
+```
+sudo systemctl enable --now tablet-priority.service
+sudo systemctl start tablet-priority.service
+
 ```
 
 ### ⚙️ Configuration & Troubleshooting
@@ -116,7 +128,7 @@ python3 tablet_priority.py
 2. **Клонируйте репозиторий:**
    ```bash
    git clone https://github.com/Worushi/linux-tablet-mouse-filter.git
-   cd PenPriority-Linux
+   cd linux-tablet-mouse-filter
    ```
 
 3. **Найдите пути к вашим устройствам:**
@@ -145,6 +157,18 @@ sudo python3 tablet_priority.py
 sudo usermod -aG input $USER
 # Обязательно перезагрузитесь или выйдите из системы и зайдите снова!
 python3 tablet_priority.py
+```
+
+**Вариант 3: Добавить скрипт в автозагрузку через nano**
+```bash
+sudo nano /usr/local/bin/tablet_priority.py
+
+# В терминал вставляете скрипт
+```
+```
+sudo systemctl enable --now tablet-priority.service
+sudo systemctl start tablet-priority.service
+
 ```
 
 ### ⚙️ Настройка и решение проблем
