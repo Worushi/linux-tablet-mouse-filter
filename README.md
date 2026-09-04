@@ -74,7 +74,7 @@ python3 tablet_priority.py
 ```bash
 sudo nano /usr/local/bin/tablet_priority.py
 
-# Paste demon in terminal
+# Paste daemon in terminal
 ```
 ```
 sudo systemctl enable --now tablet-priority.service
